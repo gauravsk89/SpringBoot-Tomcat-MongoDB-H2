@@ -41,5 +41,8 @@ public class ApiLinkBuilder {
     private String getDomainFromURI(UriInfo uriInfo){
         return StringUtils.substringBefore(uriInfo.getAbsolutePath().getAuthority(),COLON);
     }
+    
+    private void testMethod(){
+    }
 
 }
